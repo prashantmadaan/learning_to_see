@@ -10,7 +10,7 @@ import numpy as np
 import pickle
 import time
 
-def evaluate(student_file = 'sample_student', data_file = 'data/training_data.p'):
+def evaluate(student_file = 'sample_student', data_file = '../data/training_data.p'):
   '''
   Evaluate performance on finger-counting challenge.
   '''
